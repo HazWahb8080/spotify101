@@ -1,7 +1,7 @@
 import { getSession } from 'next-auth/react';
 import Head from 'next/head'
 import Image from 'next/image'
-import Center from '../components/center';
+import Center from './../components/center';
 import styles from '../styles/Home.module.css'
 import Sidebar from './../components/sidebar';
 import Player from './../components/player';

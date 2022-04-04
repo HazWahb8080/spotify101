@@ -48,7 +48,7 @@ function Center() {
           <img className="rounded-full self-center w-10 h-10" src={session?.user.image} />
           <h2 className="self-center ">{session?.user.name}</h2>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
           </svg>
         </div>
       </header>

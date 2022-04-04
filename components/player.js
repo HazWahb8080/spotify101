@@ -8,7 +8,7 @@ import useSongInfo from './../hooks/useSongInfo';
 import { useCallback } from 'react';
 import { debounce } from 'lodash';
 
-function player() {
+function Player() {
 
     const sportifyApi = new useSpotify();
     const [currentTrackId,setcurrentTrackId] = useRecoilState(currentTrackIdState);
@@ -125,4 +125,4 @@ function player() {
   ) 
 }
 
-export default player
+export default Player

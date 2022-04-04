@@ -15,7 +15,6 @@ export default function Home() {
       </main>
       <div>
       </div>
-        {/* player */}
         <div className='sticky text-white bottom-0'>
         <Player/>
         </div>

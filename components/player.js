@@ -16,6 +16,7 @@ function Player() {
     const {data:session,status} = useSession();
     const [volume,setVolume] = useState();
     const songInfo = useSongInfo();
+
     const fetchCurentSong = () => { 
         if(!songInfo) { 
             sportifyApi.getMyCurrentPlayingTrack().then((data) => {

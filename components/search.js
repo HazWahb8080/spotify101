@@ -61,15 +61,7 @@ function Search() {
                     track={result}
                     />
                 ))}
-            {searchResults.length === 0 && 
-            <div className="w-full border border-red-500 text-white h-full flex items-center justify-center">
-                lyrics
             </div>
-            }
-            </div>
-            {/* lyrics */}
-
-
         </div>
         
     </div>
